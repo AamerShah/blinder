@@ -54,13 +54,13 @@
     $chat_id = 'YOUR_TELEGRAM_CHAT_ID';
     ```
 
- * Line 55 in `collect.php`:
+  * Line 55 in `collect.php`:
 
     ```php
     $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
     ```
 
-### 3. Host URL
+### 2. Host URL
 
 * Line 6 in `index.php`:
 
