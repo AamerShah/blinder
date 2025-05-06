@@ -2,7 +2,7 @@
 
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-blue)](#) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-**Blinder** is a PHP-based Blind XSS detection and management tool designed to streamline vulnerability discovery, automate payload collection, and deliver real-time notifications via Telegram.
+**Blinder** is a self-hosted PHP-based Blind XSS detection and management tool designed to streamline vulnerability discovery, automate payload collection, and deliver real-time notifications via Telegram.
 
 ---
 
