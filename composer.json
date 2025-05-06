@@ -1,0 +1,22 @@
+{
+  "name": "aamer/blinder",
+  "description": "Blind XSS detection and management tool in PHP",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blinder\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aamer Shah",
+      "email": "aamer@pm.me"
+    }
+  ]
+}
