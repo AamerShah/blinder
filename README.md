@@ -59,7 +59,7 @@
 * Line 55 in `collect.php`:
 
   ```php
- $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
+  $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
   ```
 
 ### 3. Host URL
