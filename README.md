@@ -11,8 +11,9 @@
 * **Blind XSS Detection**: Capture out-of-band XSS payloads.
 * **Real-Time Telegram Alerts**: Get notified instantly on payload triggers.
 * **Web Interface**: Centralized panel to monitor and manage data.
-* **Flexible Payloads**: Easily customize payloads.
+* **Flexible Payloads**: Works with customized payloads. To make changes, alter index.php (script portion).
 * **Self-Hosted Support**: Integrate with your own C2 server.
+* **Intrusive data**: Local NAT IP and system battery percentage is fetched.
 
 ---
 
@@ -58,7 +59,7 @@
 * Line 55 in `collect.php`:
 
   ```php
-  $c2_domain = 'https://your-c2-domain.com';
+ $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
   ```
 
 ### 3. Host URL
@@ -66,7 +67,7 @@
 * Line 6 in `index.php`:
 
   ```php
-  define('BASE_URL', 'https://your-blinder-instance.com');
+  const endpoint = 'https://c2.com/collect.php';
   ```
 
 ---
