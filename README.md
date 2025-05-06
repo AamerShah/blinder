@@ -54,13 +54,11 @@
     $chat_id = 'YOUR_TELEGRAM_CHAT_ID';
     ```
 
-### 2. Command & Control (C2) Domain
+ * Line 55 in `collect.php`:
 
-* Line 55 in `collect.php`:
-
-  ```php
-  $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
-  ```
+    ```php
+    $msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
+    ```
 
 ### 3. Host URL
 
