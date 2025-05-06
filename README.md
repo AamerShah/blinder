@@ -68,6 +68,14 @@
   const endpoint = 'https://c2.com/collect.php';
   ```
 
+### 3. Set admin password
+
+* Line 3 in `admin.php`:
+
+  ```php
+  $hardcoded_password = "Sup3r_S3cr3t";
+  ```
+
 ---
 
 ## 💡 Usage Steps
