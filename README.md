@@ -21,10 +21,10 @@
 1. **Clone the repo**:
 
    ```bash
-   git clone https://github.com/your-username/blinder.git
+   git clone https://github.com/AamerShah/blinder.git
    cd blinder
    ```
-2. **Install PHP dependencies**:
+2. **Install PHP dependencies**: Not necessary
 
    ```bash
    composer install
